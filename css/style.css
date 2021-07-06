@@ -194,4 +194,27 @@ section {
     line-height: 30px;
 
 }
+
 /* social-media-section */
+.social-media {
+    width: 87%;
+    box-shadow: 5px 3px 16px 0px #575757;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    padding: 60px 0;
+    margin-bottom: 30px;
+
+}
+
+.single-social-media {
+    width: 30%;
+    text-align: center;
+}
+
+.single-social-media h1 {
+    font-size: 48px;
+}
+
+.single-social-media p {
+    margin-left: 20px;
+}
