@@ -291,10 +291,30 @@ button {
 #query-img {
     width: 70%;
     margin: 30px 0px 40px 180px;
-    height: 430px; 
+    height: 430px;
     border-radius: 5px;
     border-left: 5px solid;
     border-image: linear-gradient(#C8FDFA, #FAD1B9, #FD5935);
     border-image-slice: 1;
 
+}
+
+/* footer started */
+footer {
+    text-align: center;
+    background-color: black;
+    color: #5B5B5B;
+    padding: 50px 0;
+}
+
+footer h1 {
+    font-size: 30px;
+}
+
+footer h1 span {
+    color: #FB934A;
+}
+
+footer p {
+    margin: 20px 0;
 }
