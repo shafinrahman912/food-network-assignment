@@ -20,14 +20,20 @@ body {
 header {
     max-height: 200px;
     background-color: #f3dbcd;
+    padding: 10px 0px;
+
 }
 
 .logo {
     display: flex;
+   
 }
-
+.logo a{
+    text-decoration: none;
+}
 .logo img {
     max-height: 100px;
+
 }
 
 .logo h1 {
