@@ -44,7 +44,7 @@ header {
 }
 
 .navbar {
-    margin-left: 700px;
+    margin-left:100px;
 }
 
 .navbar ul {
@@ -65,5 +65,63 @@ header {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 22px;
+
+}
+
+/* intro-banner start */
+section {
+    padding: 30px 0;
+}
+
+.similar-width {
+    width: 50%;
+    /* margin-right: 30px; */
+}
+
+.similar-description {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.similar-description h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #575757;
+    margin: 20px 0;
+}
+
+.similar-description span {
+    color: #FB934A;
+}
+
+.similar-description p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #828282;
+    padding: 25px 0;
+    margin: 50px 0;
+}
+
+.similar-description a {
+    margin-top: 50px;
+}
+
+
+.similar-btn {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #FB8E48, #FD5031);
+    padding: 20px 30px;
+    border-radius: 30px;
+
+
+}
+
+.similar-image img {
+    width: 100%;
+    max-height: 65%;
+
 
 }
