@@ -4,6 +4,7 @@
 }
 
 body {
+
     font-family: 'Baloo Bhaina 2', cursive;
     font-family: 'Manrope', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -217,4 +218,83 @@ section {
 
 .single-social-media p {
     margin-left: 20px;
+}
+
+/* query secttion */
+form {
+    padding-left: 100px;
+}
+
+.queries {
+    background-image: linear-gradient(#C8FDFA, #FAD1B9);
+    /* background-image: url(../images/banner/bg7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.queries h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 50px;
+    font-weight: 900;
+    color: #575757;
+}
+
+
+
+label {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+input {
+    width: 70%;
+    height: 20px;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-left: 5px solid;
+    border-image: linear-gradient(#C8FDFA, #FAD1B9, #FD5935);
+    border-image-slice: 1;
+
+}
+
+textarea {
+    width: 70%;
+    padding: 10px;
+    border-radius: 2px;
+    height: 150px;
+    border: none;
+    border-left: 5px solid;
+    border-image: linear-gradient(#C8FDFA, #FAD1B9, #FD5935);
+    border-image-slice: 1;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    margin: 50px 0px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #f87930, #FD5935);
+
+}
+
+#query-img {
+    width: 70%;
+    margin: 30px 0px 40px 180px;
+    height: 430px; 
+    border-radius: 5px;
+    border-left: 5px solid;
+    border-image: linear-gradient(#C8FDFA, #FAD1B9, #FD5935);
+    border-image-slice: 1;
+
 }
